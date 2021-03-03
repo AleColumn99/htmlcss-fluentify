@@ -1,0 +1,200 @@
+/* LAYOUT */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.cen-text {
+  text-align: center;
+}
+
+.black-text {
+  color: black;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: gray;
+}
+
+h3 {
+  font-size: 130%;
+}
+
+/* HEADER */
+
+header {
+  height: 550px;
+  background-color: #0C325A;
+}
+
+.header-container {
+  width: 100%;
+  min-width: 1400px;
+  padding: 0 10%;
+  height: 100%;
+  background-image: url(../img/background-header.png);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: 115% 100%;
+}
+
+.header-nav {
+  height: 80px;
+  line-height: 80px;
+  overflow: hidden;
+}
+
+.header-nav .header-logo {
+  width: 15%;
+}
+
+.header-nav .header-logo {
+  margin-top: 15px;
+}
+
+.header-nav .header-nav-center {
+  width: 45%;
+}
+
+.header-nav .header-nav-right {
+  width: 40%;
+  text-align: right;
+}
+
+/* MENU */
+
+.menu-inline {
+  list-style: none;
+}
+
+.menu-inline li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.menu-inline li a {
+  color: white;
+  font-size: 80%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* BUTTON */
+
+.btn {
+  display: inline-block;
+  color: white;
+  border-radius: 5px;
+  line-height: 20px;
+  padding: 5px 10px;
+  color: white;
+  font-size: 80%;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn.btn-blue {
+  border: 1px solid white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.btn.btn-green {
+  background-color: #7CBB04;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+  position: relative;
+  height: 470px;
+}
+
+.jumbotron-text {
+  position: absolute;
+  top: 30%;
+}
+
+.jumbotron-text h1 {
+  color: white;
+  font-size: 350%;
+  margin-bottom: 30px;
+}
+
+/* BANNER */
+
+.gray-banner {
+  height: 150px;
+  margin-bottom: 40px;
+  background-color: #D3D3D3;
+}
+
+.gray-banner h3 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+/* MAIN */
+
+.main-container {
+  width: 100%;
+  padding: 0 10%;
+}
+
+main .column {
+  width: 33.3%;
+  padding: 0 3%;
+  margin-bottom: 40px;
+}
+
+main .column img {
+  height: 150px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+main .column h3 {
+  color: #7CBB04;
+  margin-bottom: 20px;
+}
+
+main .column hr {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+main hr {
+  margin-bottom: 50px;
+}
+
+main .bottom-image {
+  right: 0;
+}
+
+main .bottom-image img {
+  height: 400px;
+  margin: auto;
+}
+
+main .bottom-text h1 {
+  font-size: 150%;
+}
