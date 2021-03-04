@@ -237,6 +237,9 @@ main .bottom-text p {
   margin-bottom: 30px;
 }
 
+span .space 
+
+
 /* FOOTER */
 
 footer {
@@ -246,7 +249,7 @@ footer {
 
 footer .gray-banner {
   position: absolute;
-  top: 600px;
+  top: 1800px;
   bottom: 0px;
 }
 
