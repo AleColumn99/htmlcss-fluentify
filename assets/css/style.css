@@ -28,6 +28,10 @@
   color: black;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -35,7 +39,13 @@ body {
 }
 
 h3 {
-  font-size: 130%;
+  font-size: 150%;
+}
+
+.gray-banner {
+  height: 150px;
+  width: 100%;
+  background-color: #D3D3D3;
 }
 
 /* HEADER */
@@ -141,13 +151,11 @@ header {
 
 /* BANNER */
 
-.gray-banner {
-  height: 150px;
+main .gray-banner {  
   margin-bottom: 40px;
-  background-color: #D3D3D3;
 }
 
-.gray-banner h3 {
+main .gray-banner h3 {
   padding-top: 50px;
   padding-bottom: 10px;
 }
@@ -158,6 +166,8 @@ header {
   width: 100%;
   padding: 0 10%;
 }
+
+/* TOP SECTION */
 
 main .column {
   width: 33.3%;
@@ -173,7 +183,8 @@ main .column img {
 
 main .column h3 {
   color: #7CBB04;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  min-height: 50px;
 }
 
 main .column hr {
@@ -186,15 +197,85 @@ main hr {
   margin-bottom: 50px;
 }
 
+/* BOTTOM SECTION */
+
+.two-columns {
+  position: relative;
+  margin-bottom: 35%;
+  height: 100%;
+}
+
 main .bottom-image {
-  right: 0;
+  position: absolute;
+  padding: auto;
 }
 
 main .bottom-image img {
   height: 400px;
-  margin: auto;
+  margin-left: 10%;
+}
+
+main .bottom-text {
+  position: absolute;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  right: 0;
 }
 
 main .bottom-text h1 {
-  font-size: 150%;
+  font-size: 200%;
+  margin-bottom: 10px;
+}
+
+main .bottom-text h4 {
+  margin-bottom: 20px;
+}
+
+main .bottom-text p a {
+  font-size: 80%;
+}
+
+/* FOOTER */
+
+footer {
+  position: relative;
+  min-width: 1400px;
+}
+
+footer .gray-banner {
+  position: absolute;
+  bottom: 0px;
+}
+
+.footer-options {
+  width: 80%;
+  margin: auto;
+  line-height: 150px;
+}
+
+.footer-nav {
+  text-align: right;
+}
+
+.footer-nav ul li {
+  padding-right: 20px;
+}
+
+.footer-nav ul li a .btn.btn-green {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* HELP */
+
+.help {
+  position: fixed;
+  z-index: 10;
+  bottom: 0;
+  right: 10%;
+}
+
+.help a {
+  border-radius: 5px 5px 0px 0px;
 }
