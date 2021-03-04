@@ -131,6 +131,12 @@ header {
   background-color: #7CBB04;
 }
 
+.btn.btn-tall {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
 /* JUMBOTRON */
 
 .jumbotron {
@@ -148,7 +154,6 @@ header {
   font-size: 350%;
   margin-bottom: 30px;
 }
-
 /* BANNER */
 
 main .gray-banner {  
@@ -184,7 +189,8 @@ main .column img {
 main .column h3 {
   color: #7CBB04;
   margin-bottom: 10px;
-  min-height: 50px;
+  min-height: 80px;
+  font-size: 180%;
 }
 
 main .column hr {
@@ -201,8 +207,6 @@ main hr {
 
 .two-columns {
   position: relative;
-  margin-bottom: 35%;
-  height: 100%;
 }
 
 main .bottom-image {
@@ -211,7 +215,7 @@ main .bottom-image {
 }
 
 main .bottom-image img {
-  height: 400px;
+  width: 80%;
   margin-left: 10%;
 }
 
@@ -224,16 +228,13 @@ main .bottom-text {
 }
 
 main .bottom-text h1 {
-  font-size: 200%;
-  margin-bottom: 10px;
-}
-
-main .bottom-text h4 {
+  font-size: 250%;
   margin-bottom: 20px;
 }
 
-main .bottom-text p a {
-  font-size: 80%;
+main .bottom-text p {
+  font-size: 120%;
+  margin-bottom: 30px;
 }
 
 /* FOOTER */
@@ -245,6 +246,7 @@ footer {
 
 footer .gray-banner {
   position: absolute;
+  top: 600px;
   bottom: 0px;
 }
 
@@ -260,11 +262,6 @@ footer .gray-banner {
 
 .footer-nav ul li {
   padding-right: 20px;
-}
-
-.footer-nav ul li a .btn.btn-green {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 /* HELP */
