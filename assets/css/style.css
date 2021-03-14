@@ -203,6 +203,15 @@ main hr {
   margin-bottom: 50px;
 }
 
+@media (max-width: 1000px) {
+  main .three-columns .column {
+    width: 100%;
+    margin: auto;
+    float: none;
+  }
+}
+
+
 /* BOTTOM SECTION */
 
 .two-columns {
@@ -237,9 +246,6 @@ main .bottom-text p {
   margin-bottom: 30px;
 }
 
-span .space 
-
-
 /* FOOTER */
 
 footer {
@@ -265,6 +271,10 @@ footer .gray-banner {
 
 .footer-nav ul li {
   padding-right: 20px;
+}
+
+footer i {
+  padding-left: 30px;
 }
 
 /* HELP */
